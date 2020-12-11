@@ -1,0 +1,10 @@
+main: com.jahona.DulocPlugin
+name: DulocPlugin
+version: 1.0-SNAPSHOT
+api-version: 1.15
+
+
+commands:
+    hangrygames:
+       description: Duloc Swamp
+       usage: /duloc

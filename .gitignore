@@ -1,0 +1,6 @@
+.idea
+*.iml
+server/crash-reports
+server/logs
+server/world*
+target
