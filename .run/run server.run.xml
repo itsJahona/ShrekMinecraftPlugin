@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="run server" type="JarApplication">
-    <option name="JAR_PATH" value="$PROJECT_DIR$/server/spigot-1.15.2.jar" />
+  <configuration default="false" name="run jstockdi" type="JarApplication">
+    <option name="JAR_PATH" value="$PROJECT_DIR$/server/spigot-1.16.4.jar" />
     <option name="VM_PARAMETERS" value="-Xmx1024M -Xms1024M -jar" />
     <option name="PROGRAM_PARAMETERS" value="nogui" />
     <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/server" />
