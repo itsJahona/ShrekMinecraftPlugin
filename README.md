@@ -1,13 +1,15 @@
-# ShrekMinecraftPlugin
+Magma's instructions here: https://github.com/magmafoundation/Magma#plugin-development 
 
+help to generate the plugin jar, but do not demonstrate how to create a local "Hello World" environment.  Let's see if we can create a Hello World
 
-# Resources
+Install the generated JAR into your local maven repository
+```
+mvn install:install-file -Dfile=Magma-9e0b1b1-plugin.jar -DgroupId=com.magmafoundation -DartifactId=magma -Dversion=9e0b1b1-20201213 -Dpackaging=jar
+```
 
-Here are a list of important links to use when developing the Duloc Plugin
+Magma uses Java 8.  Make sure to set it in your environment
 
-* Bukkit compiled Javadocs: https://hub.spigotmc.org/javadocs/bukkit/
-
-
-# Upgrading Spigot
-
-To upgrade spigot, review the notes in [Issue #4](https://github.com/itsJahona/ShrekMinecraftPlugin/issues/4)
+```
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home
+export PATH=$JAVA_HOME/bin:$PATH
+```
