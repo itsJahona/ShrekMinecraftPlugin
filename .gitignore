@@ -1,5 +1,6 @@
 .idea
 *.iml
 server/
+server.tgz
 target/
 BuildTools/
