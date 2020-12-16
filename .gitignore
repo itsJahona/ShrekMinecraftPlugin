@@ -3,4 +3,6 @@
 server/crash-reports
 server/logs
 server/world*
+server/plugins/*.jar
 target
+BuildTools/
